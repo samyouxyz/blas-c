@@ -1,0 +1,19 @@
+# Compiled object files
+*.o
+
+# Executables
+*.exe
+*.out
+
+# Dependency files
+*.d
+
+# Libraries
+*.a
+*.lib
+
+# Build directory
+build/
+
+# Debug symbols
+*.dSYM/
