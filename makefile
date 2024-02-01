@@ -17,6 +17,9 @@ all: $(TARGET)
 $(TARGET): $(SRCS)
 	$(CC) $(CFLAGS) $^ -o $@
 
+mac:
+	$(CC) -o blas-mac blas-mac.c -framework Accelerate
+
 # Clean up executable
 clean:
 	rm -f $(TARGET)
